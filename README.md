@@ -6,25 +6,14 @@ This public GitHub repository contains historic price data for the Bitcoin - USD
 
 The repository consists of the following structure:
 
-- `all_data.json`: A JSON file containing all the historic kline data for the specified time period.
+- `{startDate}-{endDate}.json`: A JSON file containing all the historic kline data for the specified time period.
 - `years/`: A folder containing separate JSON files for each year, with data categorized by year.
-
-## Data Format
-
-The kline data is provided in JSON format and follows the standard structure used by various cryptocurrency exchanges. Each data entry represents a specific time interval and includes the following fields:
-
-- `Open`: The opening price of the time interval.
-- `High`: The highest price reached during the time interval.
-- `Low`: The lowest price reached during the time interval.
-- `Close`: The closing price of the time interval.
-- `Volume`: The trading volume during the time interval.
-- `Timestamp`: The timestamp indicating the start of the time interval.
 
 ## Usage
 
 You can utilize this data for various purposes, such as backtesting trading strategies, conducting research, or analyzing historical Bitcoin price trends. To access the data, you have two options:
 
-1. Use the `all_data.json` file to access the complete dataset for the entire specified time period.
+1. Use the `{startDate}-{endDate}.json` file to access the complete dataset for the entire specified time period.
 2. Access individual yearly data files located in the `years/` folder if you are interested in specific years.
 
 Feel free to explore the data and leverage it according to your needs.
